@@ -24,10 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Math Magician App</b></h3>
+    <h3><b>Math Magician App</b></h3>
 
 </div>
 
@@ -202,9 +199,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Add more scientific operations to the calculator**
+- [ ] **Different Math quotes should display on a daily**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,15 +236,17 @@ I would like to thank...
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **What are the required software and tooling I need to have installed in order to work with this React app? **
 
-- **[Question_1]**
+  - You need to have Node.js and a package manager like npm or yarn installed on your local machine
 
-  - [Answer_1]
+- **How can I run the React app locally and make changes to it? Are there any specific commands I need to run, or any particular files I need to modify in order to see my changes reflected in the app?**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - Open a command prompt or terminal window and navigate to the root directory of your React app.
+  - Run the command npm start or yarn start (depending on your package manager) to start the development server.
+  - Once the development server is running, you should be able to view the app in your web browser by navigating to http://localhost:3000 (unless you have specified a different port in your app configuration).
+  - To make changes to the app, you can edit the source code files in the src directory. The development server should automatically reload the app in your browser whenever you save changes to your code.
+  - If you encounter any issues while making changes to the app, you may want to check the console output in your browser's developer tools for any error messages or warnings. You can also consult the React documentation or community forums for troubleshooting help.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
