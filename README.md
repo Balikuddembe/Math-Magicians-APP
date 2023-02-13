@@ -23,7 +23,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-
+<br/>
     <h3><b>Math Magician App</b></h3>
 
 </div>
