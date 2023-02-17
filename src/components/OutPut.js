@@ -10,6 +10,6 @@ function OutPut({ state }) {
 }
 
 OutPut.propTypes = {
-  state: PropTypes.string.isRequired,
+  state: PropTypes.func.isRequired,
 };
 export default OutPut;
