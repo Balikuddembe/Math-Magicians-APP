@@ -1,10 +1,15 @@
-import { React } from 'react';
+import PropTypes from 'prop-types';
 
-function OutPut() {
+function OutPut({ state }) {
+  const { total, next, operation } = state;
   return (
     <div className="output">
-      0
+      {`${total || ''} ${operation || ''} ${next || ''}`}
     </div>
   );
 }
+
+OutPut.propTypes = {
+  state: PropTypes.string.isRequired,
+};
 export default OutPut;
