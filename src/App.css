@@ -1,21 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
 .calculator {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
   height: 100vh;
-  border: 1px solid black;
+  column-gap: 100px;
+  margin-top: 100px;
+}
+
+.components-body {
+  background-color: rgb(255, 255, 128);
+  font-family: 'Roboto', sans-serif;
+}
+
+.calculator-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .output {
-  height: 20px;
   width: 300px;
+  padding: 16px;
   margin-bottom: 0;
   background-color: #a4a4a6;
-  color: white;
+  color: #fff;
   text-align: end;
-  align-items: center;
 }
 
 .buttons {
@@ -40,4 +51,71 @@
 
 .operator {
   background-color: #f4913e;
+}
+
+.nav-bar {
+  padding: 15px 10px;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+}
+
+.header {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.4;
+  padding-left: 20px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.nav-links > li {
+  padding: 9px;
+  border-right: 1px solid blueviolet;
+  list-style-type: none;
+}
+
+.nav-links > li:last-child {
+  border: none;
+}
+
+.home_container {
+  height: 100vh;
+}
+
+.home_title {
+  line-height: 1.4;
+  margin: 40px 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.home_text {
+  margin: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.quote_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 156px;
+  height: 100vh;
+}
+
+.quote {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  width: 700px;
 }
