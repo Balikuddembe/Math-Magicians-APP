@@ -10,6 +10,6 @@ function OutPut({ state }) {
 }
 
 OutPut.propTypes = {
-  state: PropTypes.func.isRequired,
+  state: PropTypes.shape.isRequired,
 };
 export default OutPut;
