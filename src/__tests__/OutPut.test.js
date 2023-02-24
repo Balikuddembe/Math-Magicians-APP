@@ -12,6 +12,6 @@ describe('OutPut component', () => {
     const tree = render(
       <OutPut state={state} />,
     );
-    expect(tree.firstChild).toMatchSnapshot();
+    expect(tree).toMatchSnapshot();
   });
 });
