@@ -1,27 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 <br/>
     <h3><b>Math Magician App</b></h3>
@@ -77,8 +55,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **Make calculations more scientific**
 - **Read a random math-related quote**
 
@@ -88,8 +64,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [comming soon]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -98,8 +72,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -107,75 +79,24 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```npm start```
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+```git clone https://github.com/Balikuddembe/Math-Magicians-APP.git```
 
 ### Usage
 
 To run the project, execute the following command:
 `npm start`
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
+```npm run test```
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,9 +104,18 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
+👤 Emmanuel Balikuddembe
+
 - GitHub: [@Balikuddembe](https://github.com/Balikuddembe)
 - Twitter: [@BalixEmma](https://twitter.com/BalixEmma/)
 - LinkedIn: [emmanuel-balikuddembe](https://www.linkedin.com/in/emmanuelbalikuddembe/)
+
+👤 Gueleu S. Farida
+
+- GitHub: [@SFarida](https://github.com/SFarida)
+- Twitter: [@First_Dialo](https://twitter.com/First_Dialo)
+- LinkedIn: [farida-gueleu](https://linkedin.com/in/farida-gueleu/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,10 +123,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **Add more scientific operations to the calculator**
 - [ ] **Different Math quotes should display on a daily**
+- [ ] **Add a mobile version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -224,7 +153,7 @@ If you like this project please give it a star 😁🌟✨
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank my partner Gueleu S. Farida for her technical expertise and collaborative spirit were instrumental in shaping the direction of this project, and I learned a lot from working with her. Additionally, I would like to acknowledge the contributions of the open source community, whose libraries and frameworks made it possible to build this project efficiently and effectively. Thank you all for your invaluable contributions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
