@@ -64,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [comming soon]()
+- [Click Here for a Live Demo](https://frontendmathsmagician.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
